@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SPSU Computer Related Degree Details</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <h2>Select the SPSU Computer Related Degree You Wish to View More Information On: </h2>
+        </br>
+        
+        <form name="Test" method="post" action="SPSUDegreeDetailServlet">
+            <select name="degreeDropdown">
+            <option value ="CSBA">Computer Science Bachelor of Arts</option>
+            <option value ="CSBS">Computer Science Bachelor of Science</option>
+            <option value ="CETBS">Computer Engineering Technology Bachelor of Science</option>
+            <option value ="ITBS">Information Technology Bachelor of Science</option>
+            <option value ="SWEBS">Software Engineering Bachelor of Science</option>
+            <option value ="CSMS">Computer Science Master of Science</option>
+            <option value ="ITMS">Information Technology Master of Science</option>
+            <option value ="SWEMS">Software Engineering Master of Science</option>
+            </select>
+            
+            <input type ="submit" value="Get Degree Details" name="getdegreedetails">            
+        </form>
+    </body>
+</html>
